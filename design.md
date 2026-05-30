@@ -13,7 +13,7 @@ contact to threaded stem, movable mass, resonator, and whisker radiator.
 The player wets the fingers and rubs glass rods. Stick-slip motion in the rod
 drives a coupled metal stem. The stem carries vibration away from the glass and
 into resonating or radiating structures. Threaded hardware and movable masses
-allow setup experiments, but this L1 packet does not claim final positions,
+allow setup experiments, but this L2 packet does not claim final positions,
 pitch values, or measured tuning behavior.
 
 Large cone or flap resonators can emphasize particular voices, while the tall
@@ -37,6 +37,8 @@ first artifact.
 - Rod mounting must protect the player from breakage and isolate useful
   vibration from unsafe stress concentration.
 - No pitch, tuning, or rod geometry is released in this packet.
+- L2 review task: define a one-rod coupon record with stock source, end finish,
+  support method, wet-finger playability notes, and breakage/edge observations.
 
 ### Threaded Stem Transmission
 
@@ -45,6 +47,8 @@ first artifact.
   fabrication specs.
 - Stem stiffness, boundary condition, nut stack, washer stack, and mass position
   require bench measurement.
+- L2 review task: separate the rod joint, stem, lock hardware, and radiator
+  interface in the build log so later changes do not mix causes.
 
 ### Movable Mass Tuning
 
@@ -52,6 +56,9 @@ first artifact.
 - Future work should log mass position, contact tightness, audible response,
   sustain, and unwanted rattles.
 - This packet does not provide mass values, coordinates, or tuning tables.
+- L2 review task: create a measurement table before testing that records
+  position as `pending_measurement` labels rather than publishing tuned
+  coordinates.
 
 ### Cone And Flap Resonators
 
@@ -60,6 +67,8 @@ first artifact.
   the first frame.
 - Mounting should allow comparison without rebuilding the glass rod assembly.
 - Sheet thickness, cone angle, flap outline, and material are pending review.
+- L2 review task: keep cone, flap, and neutral reference radiator modules
+  swappable from the same stem termination.
 
 ### Whisker Radiator
 
@@ -67,7 +76,10 @@ first artifact.
   conceptually associated with fiberglass whiskers.
 - Safety, splinter control, edge handling, mounting strain, and transport
   protection are first-order design gates.
-- Whisker count, length, spacing, and anchoring are not specified at L1.
+- Whisker count, length, spacing, and anchoring are not specified in this
+  packet.
+- L2 review task: treat whisker material and containment as a safety test before
+  treating it as a sound-radiation test.
 
 ### Frame And Player Interface
 
@@ -77,6 +89,28 @@ first artifact.
   sharp, brittle, or high-strain regions.
 - Cleaning, drying, rod replacement, and resonator swaps should be possible
   without destructive disassembly.
+- L2 review task: keep player-wet zones, brittle glass zones, threaded
+  adjustment zones, and radiator edges visually and mechanically distinct.
+
+## L2 Shop Interface Plan
+
+| interface | purpose | current authority | next evidence |
+| --- | --- | --- | --- |
+| rod-to-support | hold glass without unsafe stress concentration | pending_measurement | one-rod coupon support test |
+| rod-to-stem | transmit vibration without cracking or buzz | pending_measurement | bench log with inspection photos |
+| stem-to-mass | permit controlled adjustment without rattle | pending_measurement | mass sweep protocol, no tuning claims |
+| stem-to-radiator | compare radiator modules without rebuilding rod rig | pending_measurement | swappable mounting notes |
+| radiator-to-frame | support cone/flap/whisker modules safely | pending_measurement | handling and strain review |
+| player-to-instrument | allow wet-finger access and safe maintenance | pending_measurement | ergonomic and cleaning notes |
+
+## L2 Workpiece Plan
+
+The first physical artifact should be a one-rod bench assembly, not the full
+sculptural frame. Workpieces are named in `cut-list.csv` as categories only:
+glass rod coupon, stem coupon, mass stack, replaceable radiator coupons,
+whisker safety coupon, frame rail mockup, guards, and log templates. None of
+those entries is a released cut size, rod count, resonator geometry, or tuning
+prescription.
 
 ## Parametric Intent
 
@@ -109,8 +143,9 @@ These names are placeholders, not values.
 - Serviceability: prove rod, stem, mass, and radiator modules can be inspected
   and replaced independently.
 
-## L1 Boundary
+## L2 Boundary
 
-This file is a concept and engineering-risk map. It does not provide CAD,
-DXF, tooling instructions, dimensions, tuning, pressure values, resonator
-coordinates, or a measured acoustic model.
+This file is a shop-packet planning handoff. It does not provide CAD, DXF,
+tooling instructions, dimensions, tuning, pressure values, resonator
+coordinates, or a measured acoustic model. Fabrication remains blocked until
+the one-rod rig and radiator coupons produce measured evidence.
