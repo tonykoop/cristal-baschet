@@ -1,10 +1,10 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Cristal Baschet
 
-Status: L1 V5 concept packet; glass-rod friction idiophone study only, not
-fabrication-ready.
+Status: L2 V5 shop-packet planning handoff; glass-rod friction idiophone study
+only, not fabrication-ready.
 
-This repository is a V5 L1 build-packet seed for a Cristal Baschet-inspired
+This repository is a V5 L2 planning packet for a Cristal Baschet-inspired
 instrument. The design centers on glass rods rubbed with wet fingers,
 vibration carried through threaded metal stems, adjustable masses on those
 stems, large cone or flap resonators, and a tall whisker-style radiator.
@@ -18,7 +18,10 @@ a measured reference, prototype, or reviewed design table exists.
 ## Packet Map
 
 - `design.md` - mechanism, parametric intent, and measurement gates.
-- `bom.csv` - estimated subsystem list with pending measurement authority.
+- `bom.csv` - subsystem-level materials and support inventory with pending
+  measurement authority.
+- `cut-list.csv` - non-dimensional cut/workpiece planning list; all sizes and
+  counts remain pending measurement.
 - `decision-record.md` - decisions, assumptions, and open questions.
 - `visual-output-register.csv` - V5 authority register for this concept packet.
 - `cad/mcp-session-log.md` - QMD and no-MCP provenance log.
@@ -33,9 +36,11 @@ a measured reference, prototype, or reviewed design table exists.
 - The whisker radiator is a concept surface for broad, sculptural radiation,
   pending measured material, mounting, and safety review.
 
-## Readiness Boundary
+## L2 Readiness Boundary
 
-L1 means intent, risks, and subsystem interfaces are documented. Promotion to
-L2 requires reviewed parameters, measured or sourced reference constraints, and
-prototype test plans. L3 or stronger requires validated geometry and measured
-setup evidence.
+L2 means the packet now names the shop subsystems, cut/workpiece categories,
+review gates, and authority boundaries a careful builder would need before
+deciding what to measure next. It is still not build-ready: rod stock, stem
+hardware, masses, resonators, radiator material, frame layout, dimensions, and
+tuning behavior all require measured or sourced evidence. L3 or stronger
+requires validated geometry and measured setup evidence.

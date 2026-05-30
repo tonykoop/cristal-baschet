@@ -5,12 +5,17 @@
 
 - Treat the Cristal Baschet as a glass-rod friction idiophone with a modular
   rod-to-stem-to-radiator transmission chain.
+- Promote the packet from L1 concept to L2 planning by adding subsystem shop
+  interfaces, a non-dimensional cut/workpiece list, and explicit measurement
+  gates.
 - Keep all dimensions, tuning, pressure values, thread specs, resonator
-  coordinates, mass positions, CAD, and DXF work out of the L1 packet.
+  coordinates, mass positions, CAD, and DXF work out of this packet.
 - Make the first physical work a single-rod bench rig before any full sculptural
   frame.
 - Treat the whisker radiator as a safety-critical experimental surface rather
   than a decorative afterthought.
+- Keep all visual/CAD authority at `concept_only` or `pending_measurement`
+  until measured references or reviewed design tables exist.
 
 ## Assumptions
 
@@ -31,6 +36,20 @@
   deliberately minimal reference plate?
 - How should broken-glass, fiber, edge, moisture, and transport risks be
   controlled before any public demo?
+
+## L2 Promotion Gates
+
+- Select a real rod stock and document the source before cutting or mounting.
+- Define a rod support and stem-coupling test that can be inspected after each
+  play session.
+- Prepare a mass-sweep log that records setup labels and observations without
+  publishing final tuning coordinates.
+- Compare cone, flap, and neutral radiator coupons from the same rod/stem rig
+  before designing a full frame.
+- Complete whisker handling and containment review before making it a public
+  performance surface.
+- Keep future CAD/DXF blocked until the cut-list categories have measured
+  dimensions and authority owners.
 
 ## Next Work
 
