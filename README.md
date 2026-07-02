@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Cristal Baschet
 
-Status: L2 V5 shop-packet planning handoff; glass-rod friction idiophone study
+**Status:** L2 V5 build-packet candidate; glass-rod friction idiophone study
 only, not fabrication-ready.
 
 This repository is a V5 L2 planning packet for a Cristal Baschet-inspired
@@ -25,6 +25,12 @@ a measured reference, prototype, or reviewed design table exists.
 - `decision-record.md` - decisions, assumptions, and open questions.
 - `visual-output-register.csv` - V5 authority register for this concept packet.
 - `cad/mcp-session-log.md` - QMD and no-MCP provenance log.
+- `sourcing.csv`, `validation.csv`, `risks.md`, `drawing-brief.md` - V5
+  baseline packet tables (TBD-marked; no design table exists yet).
+- `cad/cristal-baschet.scad` - non-dimensional frame/rod-array bounding
+  envelope; authority `pending_measurement`.
+- `evolution/` - evolution-pipeline Stage 0 intake: master manifest,
+  design-intent, and revision register (Gate A not yet run).
 
 ## Core Mechanisms
 

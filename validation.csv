@@ -1,0 +1,7 @@
+check_id,area,target,method,tolerance,measured,result,action
+VAL-001,Rod excitation,"one glass rod can be played repeatably with wet fingers without unsafe mounting stress (design.md First Measurement Gates)",bench play test with inspection log,measurement_required,TBD,TBD,"Revise rod support/mounting before proceeding"
+VAL-002,Rod-to-stem transmission,"stem carries vibration without loosening rattling or overloading the rod joint",bench log with inspection photos,measurement_required,TBD,TBD,"Redesign coupling joint"
+VAL-003,Mass sweep,"audible response changes logged across movable mass positions; no tuning value published yet",mass sweep protocol per decision-record.md,measurement_required,TBD,TBD,"Adjust mass stack or lock hardware"
+VAL-004,Resonator comparison,"cone and flap radiator coupons compared on same rod/stem rig",swap test with neutral reference coupon,measurement_required,TBD,TBD,"Select radiator family for further development"
+VAL-005,Whisker safety,"handling strain relief and containment reviewed before any public-facing radiator claim",safety/handling test per decision-record.md,pass/fail (no defects),TBD,TBD,"Do not demo whisker radiator until this passes"
+VAL-006,Serviceability,"rod stem mass and radiator modules can be inspected and replaced independently",disassembly/reassembly dry run,no destructive disassembly required,TBD,TBD,"Revise mounting for modularity"

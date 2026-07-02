@@ -1,0 +1,34 @@
+{
+  "product": "cristal-baschet",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/cristal-baschet.scad",
+      "format": "openscad-source",
+      "sha256": "4cdb730e0f642665c029e829bbd6ca33181440ba16682b894b22ac8d23e1214a",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Non-dimensional frame/rod-array bounding envelope; bench-planning layout only, no rod/stem/resonator dimensions."
+    },
+    {
+      "path": "wolfram/cristal-baschet-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "c69c17805e3a4e3fe327840fb07e62bea6e9418efe284e5de5d9331bbc43648d",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Source-only (not executed); estimate placeholders."
+    },
+    {
+      "path": "cristal-baschet-starter.wl",
+      "format": "wolfram-source",
+      "sha256": "a2497e5cb4d48651d3d477498493e2fc0da8fc4832fb6db17f03430fe0e8b855",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Thin Wolfram loader; source-only."
+    }
+  ],
+  "notes": "No design table (xlsx) exists for this instrument. OpenSCAD envelope and Wolfram sources are the only current masters; no STEP export. Gate A (Alpha workspace compile) not yet run."
+}
